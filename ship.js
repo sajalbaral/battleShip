@@ -13,5 +13,9 @@ export function Ship(length) {
     return hits === length;
   }
 
-  return { hit, isSunk };
+  function getLength() {
+    return length;
+  }
+
+  return { hit, isSunk, getLength };
 }
