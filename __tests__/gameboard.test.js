@@ -1,5 +1,5 @@
-import { Gameboard } from "./gameboard.js";
-import { Ship } from "./ship.js";
+import { Gameboard } from "../gameboard.js";
+import { Ship } from "../ship.js";
 
 test("attacking an empty cell returns miss", () => {
   const board = Gameboard();

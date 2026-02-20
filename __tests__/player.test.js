@@ -1,4 +1,4 @@
-import { Player } from "./player.js";
+import { Player } from "../player.js";
 
 test("forwards attack to the board and returns result", () => {
   const fakeBoard = {
